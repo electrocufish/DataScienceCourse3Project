@@ -1,6 +1,6 @@
 # DataScienceCourse3Project
 Getting and Cleaning Data is the third course in Coursera's Data Science Track.
-This repository contains files pertaining to the course's week 4 peer-graded assessment.
+This repository contains files pertaining to this course's week 4 peer-graded assessment.
 The aim of this project is to produce tidy data from raw data.
 The script will produce a text output with the cleaned-up data.
 
