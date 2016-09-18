@@ -6,6 +6,7 @@ The script will produce a text output with the cleaned-up data.
 
 # Repository Contents
 - README.md
+- CodeBook.md
 - UCI HAR Dataset - Raw dataset (refer to UCI HAR Dataset/README for more information)
 - run_analysis.R - R script required for this project
 
