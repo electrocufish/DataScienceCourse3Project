@@ -7,13 +7,14 @@ The script will produce a text output with the cleaned-up data.
 # Repository Contents
 - README.md
 - CodeBook.md
-- UCI HAR Dataset - Raw dataset (refer to UCI HAR Dataset/README for more information)
+- UCI HAR Dataset.zip - Raw dataset (refer to UCI HAR Dataset/README for more information)
 - run_analysis.R - R script required for this project
 
 # Installation
 1. Clone the repository to your local directory.
-2. Install and load the reshape2 package in R or R Studio.
-3. Run the R script run_analysis.R with R or R Studio.
+2. Unzip UCI HAR Dataset.zip into the same directory.
+3. Install and load the reshape2 package in R or R Studio.
+4. Run the R script run_analysis.R with R or R Studio.
 
 # How the R Script Works
 1. Reads the test and training dataset, the corresponding subjects, features and activity labels from the raw dataset. 
