@@ -15,14 +15,13 @@ The script will produce a text output with the cleaned-up data.
 3. Run the R script run_analysis.R with R or R Studio.
 
 # How the R Script Works
-The R script run_analysis.R is a sequential script that does the following:
-1. Reads the test and training dataset, the corresponding subjects, features and activity labels from the raw data. 
+1. Reads the test and training dataset, the corresponding subjects, features and activity labels from the raw dataset. 
 2. Renames variables with descriptive names.
 3. Manipulates the data to include activity and subject columns.
-3. Merges the test and training datasets.
-4. Extracts the mean and standard deviation columns from the merged dataset.
-5. Creates an independent table with the average of each variable for each activity and each subject.
-6. Outputs the table created in 5 into a text file.
+4. Merges the test and training datasets.
+5. Extracts the mean and standard deviation columns from the merged dataset.
+6. Creates an independent table with the average of each variable for each activity and each subject.
+7. Outputs the table created in 5 into a text file.
 
 #Acknowledgement
 Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
