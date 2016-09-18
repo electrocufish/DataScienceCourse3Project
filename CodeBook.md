@@ -1,34 +1,43 @@
 #DataScienceCourse3Project Codebook
 
 Activity
-  Activity undertaken by test subject.
-    LAYING              .LAYING
-    SITTING             .SITTING
-    STANDING            .STANDING
-    WALKING             .WALKING
-    WALKING_DOWNSTAIRS  .WALKING_DOWNSTAIRS
-    WALKING_UPSTAIRS    .WALKING_UPSTAIRS
+Description: Activity undertaken by test subject.
+LAYING
+SITTING
+STANDING
+WALKING             
+WALKING_DOWNSTAIRS
+WALKING_UPSTAIRS   
 
-tBodyAcc-mean()-X
-  Time domain body acceleration signal - mean of Euclidian norm - X-axis
-    0.2216..0.3015  .0.2216..0.3015
+Subject
+Description: Test subject.
+1:30
 
-tBodyAcc-mean()-Y
-  Time domain body acceleration signal - mean of Euclidian norm - Y-axis
-    -0.040514..-0.001308  .-0.040514..-0.001308
-    
-tBodyAcc-mean()-Z
-  Time domain body acceleration signal - mean of Euclidian norm - Z-axis
-    -0.15251..-0.07538  .-0.15251..-0.07538
+Other variables are in the following format:
+<h1><h2>-<h3>-<h4>
+General description: Euclidian norm of signals
 
-tBodyAcc-std()-X
-  Time domain body acceleration signal - standard deviation of Euclidian norm - X-axis
-    -0.9961..0.6269 .-0.9961..0.6269
+<h1>
+t - time domain
+f - frequency domain
 
-tBodyAcc-mean()-Y
-  Time domain body acceleration signal - standard deviation of Euclidian norm - Y-axis
-    -0.99024..0.61694  .-0.99024..0.61694
-    
-tBodyAcc-mean()-Z
-  Time domain body acceleration signal - standard deviation of Euclidian norm - Z-axis
-    -0.9877..-0.6090  .-0.9877..0.6090
+<h2>
+BodyAcc - accelerometer body signal (Hz)
+GravityAcc - accelerometer gravity signal (Hz)
+BodyAccJerk - accelerometer body jerk signal (Hz)
+BodyGyro - gyroscope body signal (Hz)
+BodyGyroJerk - gyroscope body jerk signal (Hz)
+BodyAccMag - accelerometer body signal (Euclidean norm)
+GravityAccMag - accelerometer gravity signal (Euclidean norm)
+BodyAccJerkMag - accelerometer body jerk signal (Euclidean norm)
+tBodyGyroMag - gyroscope body signal (Euclidean norm)
+BodyGyroJerkMag - gyroscope body jerk signal (Euclidean norm)
+
+<h3>
+mean() - mean
+std() - standard deviation
+
+<h4>
+X - X-axis
+Y - Y-axis
+Z - Z-axis
